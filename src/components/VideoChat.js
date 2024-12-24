@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import AgoraRTC from 'agora-rtc-sdk-ng';
 import VideoCall from './VideoCall';
 
-const appId = 'YOUR_AGORA_APP_ID'; // Replace with your Agora app ID
 const client = AgoraRTC.createClient({ mode: 'rtc', codec: 'vp8' });
 
 function VideoChat() {
